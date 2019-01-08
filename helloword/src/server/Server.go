@@ -17,6 +17,7 @@ func main() {
 	通过request.Form["参数名"]获取参数值
 */
 func login(writer http.ResponseWriter, request *http.Request) {
+	//解析参数，默认是不会解析
 	request.ParseForm()
 
 	//todo account数组， aError是否有传参数

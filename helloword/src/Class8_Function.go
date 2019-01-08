@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 /*
 	函数
@@ -14,6 +17,8 @@ func main() {
 	a, b := judge("第一个参数", "第二个参数")
 
 	fmt.Println(a, b)
+
+	fmt.Println(math.Max(10, 9))
 }
 
 func log(msg string) {
